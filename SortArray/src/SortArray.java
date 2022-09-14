@@ -34,7 +34,7 @@ public class SortArray
         }
 
 
-        public static void sortIntegerArray(int n, int[] array) 
+        public static int[] sortIntegerArray(int n, int[] array) 
         {
                 int temp = 0;                                                           // initialize variable used for sorting
 
@@ -64,5 +64,10 @@ public class SortArray
                 {
                         System.out.print(array[i] + " ");
                 }
+
+                return array;
         }
+
+
+
 }

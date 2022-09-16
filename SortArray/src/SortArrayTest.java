@@ -20,4 +20,12 @@ public class SortArrayTest
                 assertArrayEquals(sortedIntegerArray, SortArray.sortIntegerArray(5, unSortedIntegerArray));
         }
 
+        @Test
+        public void test3()
+        {
+                String[] sortedStringArray = {"Apple, Bee, Cheese, Donkey, Fruits"};
+                String[] unSortedStringArray = {"Bee, Donkey, Cheese, Fruits, Apple"};
+                assertArrayEquals(sortedStringArray, SortArray.sortStringArray(5, unSortedStringArray));
+        }
+
 }
